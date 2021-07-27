@@ -1,0 +1,136 @@
+body {
+  position: relative;
+  text-align: center;
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  overflow: hidden;
+  /* width: 1363px; */
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+span {
+  font-weight: 400;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+footer {
+  margin-bottom: 0;
+}
+
+.topbg img {
+  margin: 2%;
+  position: relative;
+  top: 60px;
+  z-index: 1;
+}
+
+.intro p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.top1 {
+  position: absolute;
+  left: -320px;
+  top: -700px;
+  z-index: -1;
+}
+
+.top2 {
+  position: absolute;
+  right: -300px;
+  bottom: -680px;
+  z-index: -1;
+}
+
+.intro {
+  background-color: white;
+  padding: 5%;
+  position: relative;
+  top: 40px;
+}
+
+.popout {}
+
+.container {
+  padding: 0;
+  margin: 10% auto;
+  /* background-image: url("images/bg-pattern-card.svg"); */
+  background-color: white;
+  width: 25%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 5px grey;
+}
+
+.topbg {
+  background-image: url("images/bg-pattern-card.svg");
+  border-radius: 10px 10px 0 0;
+  margin: auto 0;
+}
+
+.cardbg {
+  margin: auto;
+  text-align: center;
+}
+
+.profile {
+  border-radius: 100%;
+  border: 5px solid white;
+}
+
+.stats {
+  background-color: white;
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  top: 30px;
+}
+
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 --> */
+.attribution {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: black;
+}
+
+@media (max-width: 1042px) and (min-width:551px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    margin: 25% auto;
+    width: 80%;
+  }
+
+  .top1 {
+    position: absolute;
+    left: -675px;
+    top: -800px;
+    z-index: -1;
+  }
+
+  .top2 {
+    position: absolute;
+    right: -680px;
+    bottom: -700px;
+    z-index: -1;
+  }
+}
